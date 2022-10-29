@@ -17,7 +17,7 @@ def obtener_palabra_valida(palabras):
 
     #evitar guiones o espacioe en la palabra
     while "-" in palabra or " " in palabra:
-        palabra = randon.choice(palabras)
+        palabra = random.choice(palabras)
         
     return palabra.upper()
 
