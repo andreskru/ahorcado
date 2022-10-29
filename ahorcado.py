@@ -8,6 +8,9 @@ from palabras import palabras
 
 from ahorcado_diagramas import vidas_diccionario_visual
 
+#Ahorcado para Santu
+# https://github.com/andreskru/ahorcado
+
 def obtener_palabra_valida(palabras):
     #seleccionar uan palabra al azaar de la li8sta
     palabra = random.choice(palabras)
